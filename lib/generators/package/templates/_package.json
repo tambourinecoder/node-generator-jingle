@@ -1,0 +1,36 @@
+{
+  "name": "<%= packageName %>",
+  "version": "0.0.0",
+  "author": {
+    "name": "<%= userName %>",
+    "email": "<%= userEmail %>",
+    "url": "<%= githubUrl %>"
+  },
+  "license": "MIT",
+  "description": "description for <%= packageName %>",
+  "keywords": [
+  ],
+  "homepage": "<%= repoUrl %>",
+  "bugs": "<%= repoUrl %>/issues",
+  "repository": {
+    "type": "git",
+    "url": "<%= repoUrl %>.git"
+  },
+  "main": "lib/index",
+  "scripts": {<% if (includeTests) { %>
+    "test": "mocha test"<% } %>
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {<% if (includeTests) { %><% if (includeMochaJSHint) { %>
+    "mocha-jshint": "0.0.7",<% } %><% if (includeSinon) { %>
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0",<% } %>
+    "chai": "~1.8.1",
+    "mocha": "~1.16.2"
+  <% } %>}
+}
+

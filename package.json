@@ -1,0 +1,43 @@
+{
+  "name": "generator-jingle",
+  "version": "0.0.0",
+  "description": "A Yeoman generator providing (personally flavoured) tools for writing node packages",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/tambourinecoder/node-generator-jingle",
+  "bugs": "https://github.com/tambourinecoder/node-generator-jingle/issues",
+  "author": {
+    "name": "Tambourinecoder",
+    "email": "tambourinecoder@gmail.com",
+    "url": "https://github.com/tambourinecoder"
+  },
+  "main": "lib/generators/package/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tambourinecoder/node-generator-jingle.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "underscore.string": "~2.3.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "mocha-jshint": "0.0.7"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

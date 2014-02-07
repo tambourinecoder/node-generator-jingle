@@ -1,4 +1,4 @@
-# generator-jingle
+# generator-jingle [![Build Status](https://travis-ci.org/tambourinecoder/node-generator-jingle.png?branch=master)](https://travis-ci.org/tambourinecoder/node-generator-jingle)
 > A [Yeoman](http://yeoman.io/) generator providing (personally flavoured) tools for writing node packages
 
 This simple generator is what I use when working on node packages.
